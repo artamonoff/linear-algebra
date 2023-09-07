@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath, amsfonts, amsthm, amssymb, amsopn, amscd}
+\usepackage{enumerate}
+\usepackage[mathscr]{eucal}
+
+\usepackage{hyperref}
+\hypersetup{unicode=true,final=true,colorlinks=true}
+
+\title{Seminars on Linear Algebra}
+
+\author{Nikita V. Artamonov}
+
+\begin{document}
+
+\maketitle
+
+\section{Matrices and Matrix operations}
+
+\subsection{Matrix addition, subtraction \& scalar multiplication}
+\cite{Shores}: p.60 Exercise 1; p. 61 Exercise 3, 4
+
+\subsection{Matrix multiplication}
+
+\cite{Shores}: p. 68 Exercise 2; p.69 Exercise 5, 10;
+p. 70 Exercise 13, 14, 21
+
+\noindent\cite{Robbiano}: p.46 Exercise 1, 6, 7; p. 47 Exercise 8
+
+\subsection{Inverse Matrix}
+
+\cite{Shores}: p. 111 Exercise 1, 2;  p.112 Exercise 7, 8, 9, 11
+
+\subsection{Determinant}
+
+\cite{Shores}: p. 125 Exercise 1;  p. 126 Exercise 2, 3;  p.127 Exercise 11, 13, 14
+
+\subsection{Matrix rank}
+
+\cite{Shores}: p. 43 Exercise 3, 4, 5
+
+\section{Systems of linear equations}
+
+\subsection{Cramer's rule}
+
+\cite{Shores}: p. 127 Exercise 13, 14
+
+\subsection{Gauss-Jordan elimination method}
+
+\cite{Shores}: p. 30 Exercise 4; p. 31 Exercise 5, 6
+
+\section{Linear Spaces}
+
+\subsection{Subspaces}
+
+\cite{Shores}: p. 168 Exercise  1 -- 8
+
+\subsection{Linear Combinations}
+
+\cite{Shores}: p.183 Exercise 3, 4
+
+\subsection{Basis \& Dimension}
+
+\cite{Shores}: p. 196 Exercise 1, 2, 4; p. 197 Exercise 7
+
+\subsection{Norms \& Inner product}
+
+\textbf{1.} For the following vectors 
+\begin{align*}
+	&\begin{pmatrix} 1 \\ 1\end{pmatrix} &
+	&\begin{pmatrix} 1 \\ 2\end{pmatrix} &
+	&\begin{pmatrix} \frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}} \end{pmatrix} &
+	&\begin{pmatrix} 1 \\ 0 \\ 1\end{pmatrix} &
+	&\begin{pmatrix} -1 \\ -1 \\ 1 \end{pmatrix} &
+	&\begin{pmatrix} 0 \\ -\frac{1}{\sqrt{2}} \\  \frac{1}{\sqrt{2}} \end{pmatrix} &
+	&\begin{pmatrix} \frac{1}{\sqrt{3}} \\ -\frac{1}{\sqrt{3}} \\  \frac{1}{\sqrt{3}} \end{pmatrix}
+\end{align*}
+calculate their normes 
+\(\|\cdot\|_1,\|\cdot\|_2, \|\cdot\|_3,\|\cdot\|_\infty\)
+
+\textbf{2.} For the following vectors 
+\begin{align*}
+	x_1 &=\begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{pmatrix} &
+	x_2 &=\begin{pmatrix} -\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{pmatrix} &	
+	x_3 &=\begin{pmatrix} -\frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}} \end{pmatrix} &
+\end{align*}
+calculate \((x_1,x_2), (x_1,x_3), (x_2,x_3)\)
+
+\subsection{Quadratic Forms \& Symmetric Matrices}
+
+Which of the folloewng matrices are 
+\begin{itemize}
+	\item positive/negative definite, 
+	\item positive/negative semidefinite
+	\item indefinite?
+\end{itemize}
+\begin{align*}
+	&\begin{pmatrix} 4 & 1 & -1 \\ 1 & 3 & 1 \\ -1 & 1 & 4\end{pmatrix} &
+	&\begin{pmatrix} 2 & 1 & -4 \\ 1 & 2 & 1 \\ -4 & 1 & 2\end{pmatrix} &
+	&\begin{pmatrix} -3 & 1 & -1 \\ 1 & -4 & 1 \\ -1 & 1 & -3\end{pmatrix}  \\
+	&\begin{pmatrix} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1\end{pmatrix} &
+	&\begin{pmatrix} 2 & 1 & 3 \\ 1 & 2 & 3\\ 3 & 3 & 6 \end{pmatrix}  &
+	&\begin{pmatrix} -2 & 1 & -1 \\ 1 & -1 & 0 \\ -1 & 0& -1\end{pmatrix} 
+\end{align*}
+
+\subsection{Eigenvalues \& Eigenvectors}
+
+\cite{Shores}: p. 261 Exercise 1, 2
+
+\begin{thebibliography}{99}
+
+\bibitem{Shores} Thomas S. Shores, <<Applied Linear Algebra and
+Matrix Analysis>>, Springer Verlag, 2007
+
+\bibitem{Said-Houari} Belkacem Said-Houari, <<Linear Algebra>>,
+Birkhäuser, 2017
+
+\bibitem{Robbiano} Lorenzo Robbiano, <<Linear Algebra for everyone>>,
+Springer Verlag, 2011
+
+\bibitem{Golan} Jonathan S. Golan, <<The Linear Algebra a Beginning Graduate Student
+Ought to Know>>, Springer Verlag, 2007
+
+\bibitem{Byrne} Charles L. Byrne, <<Applied and Computational Linear Algebra:
+A First Course>>
+
+\end{thebibliography}
+
+\end{document}
