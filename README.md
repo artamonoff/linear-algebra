@@ -25,7 +25,7 @@
 
 |Method | Usage |
 |--|--|
-|'.matrix_power(a,n)`| Matrix power |
+|`.matrix_power(a,n)`| Matrix power |
 | `.eig(a)`| eigenvalues & eigenvetctors|
 |`.eigvals(a)` |eigenvalues only |
 |`.det(a)` | Matrix determonant |
