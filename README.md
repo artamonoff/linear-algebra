@@ -18,7 +18,7 @@
 |`.det()`| Matrix determinant |
 |`.eigenvals()` | Matrix eigenvalues |
 |`.eigenvects()` | Matrix eigenvactors |
-|`shape()`| Matrix shape |
+|`.shape()`| Matrix shape |
 |`@`| Matrix multiplication |
 
 ### `numpy.linalg` library
@@ -26,7 +26,7 @@
 |Method | Usage |
 |--|--|
 |`.matrix_power(a,n)`| Matrix power |
-| `.eig(a)`| eigenvalues & eigenvetctors|
+|`.eig(a)`| eigenvalues & eigenvetctors|
 |`.eigvals(a)` |eigenvalues only |
 |`.det(a)` | Matrix determonant |
 |`.matrix_rank()`| Matrix rank |
