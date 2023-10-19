@@ -20,6 +20,8 @@
 |`.eigenvects()` | Matrix eigenvactors |
 |`.shape()`| Matrix shape |
 |`@`| Matrix multiplication |
+|`.T`|Transpose matrix|
+|`**(-1)`|Inverse matrix|
 
 ### `numpy.linalg` library
 
